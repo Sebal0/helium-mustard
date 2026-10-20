@@ -2,7 +2,7 @@
 
 Helium-inspired themes with a mustard yellow accent (`#FFDB58`). Dark and light palettes for T3 Code, Spotifast, and future additions. Created with AI assistance and refined through personal use and feedback.
 
-I like yellow. This collection pairs it with deep graphite backgrounds, softened text, and a matching warm light palette.
+I like yellow. This collection pairs it with deep graphite backgrounds, softened text, and a matching neutral light palette.
 
 ## Themes
 
@@ -15,9 +15,11 @@ I like yellow. This collection pairs it with deep graphite backgrounds, softened
 
 | Role | Dark | Light |
 | --- | --- | --- |
-| Main background | `#121414` | `#F4F3EE` |
-| Main text | `#D8DAD7` | `#292D2E` |
+| Main background | `#121414` | `#FAF9F9` |
+| Main text | `#D8DAD7` | `#1A1C1C` |
 | Accent | `#FFDB58` | `#856300` |
+
+Both modes now draw their neutral colors from Helium’s published palette. The light mode replaces the original cream and green-gray surfaces with Helium neutrals; see the [source mapping](docs/helium-light-source.md).
 
 The light palette uses darker mustard for small accents so they remain visible against pale surfaces. T3 Code also uses `#FFDB58` for message action buttons; Spotifast has one shared accent color for buttons and other highlights.
 

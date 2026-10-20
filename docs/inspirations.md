@@ -2,7 +2,9 @@
 
 ## Helium
 
-[Helium](https://github.com/imputnet/helium), by imput, inspired the neutral dark palette. Several neutral values were taken from its published palette, then combined with a custom mustard accent, softened text, and app-specific color roles.
+[Helium](https://github.com/imputnet/helium), by imput, inspired both neutral palettes. The dark palette uses softened text; the light palette now uses Helium’s neutral reference colors after tracing its default grayscale theme through its Chromium color mixers. Both are combined with a custom mustard accent and app-specific color roles.
+
+See the [light palette source mapping](helium-light-source.md) for the exact upstream revision, inherited Chromium sources, and adaptations.
 
 Relevant upstream sources:
 

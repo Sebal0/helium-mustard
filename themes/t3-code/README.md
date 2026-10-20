@@ -9,6 +9,8 @@
 
 One file contains both palettes: dark is the base `colors` object and light is in `variants.light`. The file uses T3 Code theme format version 1 and literal OKLCH colors.
 
+The light variant uses Helium’s neutral palette: `#FAF9F9` for the reading canvas, white chrome, `#1A1C1C` text, and `#F1F0F0` message/sidebar surfaces. See the [source mapping](../../docs/helium-light-source.md).
+
 The JSON structure and palette values have been checked. This repository does not claim automated verification of the complete import flow or every rendered application surface.
 
 [Official appearance documentation](https://github.com/pingdotgg/t3code/blob/main/docs/user/appearance.md)
