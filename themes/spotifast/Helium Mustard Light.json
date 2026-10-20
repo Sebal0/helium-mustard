@@ -10,12 +10,12 @@
     "text": "#1A1C1C",
     "secondary": "#5D5E5F",
     "dim": "#5D5E5F",
-    "accent": "#856300",
-    "on_accent": "#FFFFFF",
+    "accent": "#FFDB58",
+    "on_accent": "#1A1C1C",
     "danger": "#BA1A1A",
     "warning": "#865200",
     "overlay": "#FDFCFC",
-    "accent_hover": "#725400",
+    "accent_hover": "#FFE58A",
     "shadow": "#00000024"
   }
 }

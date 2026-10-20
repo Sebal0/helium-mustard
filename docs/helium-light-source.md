@@ -33,11 +33,12 @@ The two Helium patches were applied to the relevant Chromium reference/system mi
 
 Choosing Neutral98 for the reading canvas and Neutral95 for panels/messages is an application-specific mapping. Helium’s native toolbar base is white, and its tabs and location bar also use alpha blending. Native window materials and platform settings can change the final browser appearance; these theme files use opaque colors for predictable results.
 
-The T3 informational blue (`#3551D2`, with `#F0EFFF` / `#00218D` surfaces/text) and error red (`#BA1A1A`, with `#FFDAD6` / `#410002`) also come from Helium’s reference palette. Mustard accents, their hover shades, and amber warnings remain custom choices. Dark gold `#856300` is retained for readable accents on light backgrounds; T3 message action buttons retain `#FFDB58`.
+The T3 informational blue (`#3551D2`, with `#F0EFFF` / `#00218D` surfaces/text) and error red (`#BA1A1A`, with `#FFDAD6` / `#410002`) also come from Helium’s reference palette. Mustard accents, their hover shades, and amber warnings remain custom choices. Both modes use bright mustard `#FFDB58` instead of the earlier brownish dark gold. Light buttons use Neutral10 text and `#FFE58A` hover. T3 uses Neutral40 for focus and the terminal cursor, keeping those fine indicators visible against light surfaces.
 
 ## Validation
 
 - T3: the existing dark `colors` object is unchanged; the complete 57-role light variant remains in the same file.
 - Spotifast: its dark JSON is byte-for-byte unchanged; its light JSON contains the 16 supported/documented roles in hex format.
 - 15 selected T3 text/background pairs and 20 Spotifast pairs exceed 4.5:1. The lowest measured pair in both groups is approximately 5.03:1. Primary text on the reading canvas is approximately 16.29:1.
+- Dark text on yellow buttons exceeds 12:1. The bright accent itself has low contrast against white; applications that reuse it as foreground text/icons need separate visual review.
 - These figures describe opaque palette pairs. They do not establish full application accessibility, visual-fatigue benefits, or a verified live import.

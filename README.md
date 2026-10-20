@@ -17,11 +17,11 @@ I like yellow. This collection pairs it with deep graphite backgrounds, softened
 | --- | --- | --- |
 | Main background | `#121414` | `#FAF9F9` |
 | Main text | `#D8DAD7` | `#1A1C1C` |
-| Accent | `#FFDB58` | `#856300` |
+| Accent | `#FFDB58` | `#FFDB58` |
 
 Both modes now draw their neutral colors from Helium’s published palette. The light mode replaces the original cream and green-gray surfaces with Helium neutrals; see the [source mapping](docs/helium-light-source.md).
 
-The light palette uses darker mustard for small accents so they remain visible against pale surfaces. T3 Code also uses `#FFDB58` for message action buttons; Spotifast has one shared accent color for buttons and other highlights.
+Both modes use the same bright mustard yellow, `#FFDB58`, with dark text on yellow buttons. The light mode uses `#FFE58A` for button hover and a neutral gray focus ring in T3 Code.
 
 Contrast calculations informed the palette, but they do not establish that a theme reduces eye strain. Comfort depends on the screen, lighting, text size, and the reader. Application transparency and rendering can also affect the final result.
 
